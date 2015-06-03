@@ -7,6 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+  <nav>
+    <li><%= link_to('HOME', bballs_path) %></li>
+    <li><%= link_to('New Team', new_bball_path) %></li>
+  </nav>
+
+</header>
 
 <%= yield %>
 
